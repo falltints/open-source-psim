@@ -1,0 +1,29 @@
+@import './variable';
+
+.psim-app {
+  width: @app-width;
+  height: @app-height;
+  border: @border-width-base @border-style-base @border-color-base;
+  background-color: @background-color-base;
+  .psim-map-container {
+    float: left;
+    box-sizing: border-box;
+    width: @map-container-width;
+    height: @map-container-height;
+    border-right: @border-width-base @border-style-base @border-color-base;
+  }
+  .psim-title-container {
+    float: left;
+    box-sizing: border-box;
+    width: @title-container-width;
+    height: @title-container-height;
+    border-bottom: @border-width-base @border-style-base @border-color-base;
+  }
+  .psim-table-container {
+    float: left;
+    box-sizing: border-box;
+    width: @table-container-width;
+    height: @table-container-height;
+    padding: @padding-sm;
+  }
+}

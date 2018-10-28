@@ -1,0 +1,1 @@
+export const $titleText = 'SAM周界安防系统';
